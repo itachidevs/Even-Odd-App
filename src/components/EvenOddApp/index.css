@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.container {
+  width: 100vw;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  color: #0f172a;
+  font-family: Roboto;
+  padding: 20px;
+}
+.heading {
+  font-size: 2rem;
+}
+.count-type {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.button {
+  width: 50%;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #334155;
+  border-radius: 0.4rem;
+}
+.instruction {
+  color: #1e293b;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+@media screen and (min-width: 767px) {
+  body {
+    padding: 40px;
+  }
+  .container {
+    width: 75vw;
+  }
+  .heading {
+    font-size: 4rem;
+  }
+  .instruction {
+    font-size: 2rem;
+  }
+  .count-type {
+    font-size: 2rem;
+  }
+  .button {
+    width: 75%;
+    font-size: 2rem;
+  }
+}
